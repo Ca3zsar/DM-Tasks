@@ -7,7 +7,10 @@ data = data[ , !names(data) %in% c("Booking_ID","type_of_meal_plan",
                                    "room_type_reserved",
                                    "market_segment_type",
                                    "repeated_guest",
-                                   "booking_status")]
-animate_xy(data, col=data$booking_status)
+                                   "booking_status",
+                                   "arrival_year",
+                                   "arrival_month",
+                                   "arrival_date")]
+animate_xy(data, col=data$booking_status) # the tour is grand_tour by default
 
-
+           
