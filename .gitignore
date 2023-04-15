@@ -2,3 +2,6 @@
 .idea/modules.xml
 .idea/workspace.xml
 .ipynb_checkpoints/DM_Task1-checkpoint.ipynb
+*.png
+rn_stats/
+histories.pickle
